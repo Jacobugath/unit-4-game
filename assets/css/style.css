@@ -1,0 +1,348 @@
+/* Styling for header and footer */
+
+nav {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    height: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.bg-light {
+    background-color: #ffffff;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+#hNav {
+    color: #fff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2em;
+}
+#navbarSupportedContent {
+    z-index: 1;
+    padding-right: 10%;
+    background-color: #fff;
+}
+#move {
+    padding-left: 10%;
+    height: 100%;
+}
+#navbarSupportedContent {
+    z-index: 1;
+    padding-right: 10%;
+    background-color: #fff;
+}
+
+.bod {
+    background-image: url(../images/funky-lines.png);
+    background-size: cover;
+    color: #000;
+}
+.fire {
+    background-image: url(https://images.unsplash.com/photo-1514833298685-bbecd990f2df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=735a27aa92226ccb6db12d9c801de922&auto=format&fit=crop&w=2850&q=80);
+    background-size: cover;
+    color: #fff;
+}
+h1 {
+    text-align: center;
+}
+.play {
+    height: 270px;
+    width: 130px;
+}
+.billstand {
+    background-image: url(../images/BillStand.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.bill {
+    background-image: url(../images/billFight.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.billfire {
+    background-image: url(../images/billfire.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.billopp {
+    background-image: url(../images/billopp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.billfireopp {
+    background-image: url(../images/billfireopp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.vivian {
+    background-image: url(../images/vivian.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.vivianfire {
+    background-image: url(../images/vivianfire.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.vivianopp {
+    background-image: url(../images/VivianOpp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.vivianoppfire {
+    background-image: url(../images/vivianfireopp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.mario {
+    background-image: url(../images/MarioFight.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.mariofire {
+    background-image: url(../images/MarioFire.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.marioopp {
+    background-image: url(../images/MarioOpp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.mariooppfire {
+    background-image: url(../images/MarioFireOpp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.sway {
+    background-image: url(../images/Sway.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.swayfire {
+    background-image: url(../images/swayfire.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.swayopp {
+    background-image: url(../images/swayopp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.swayoppfire {
+    background-image: url(../images/swayfireopp.png);
+    background-size: contain;
+    height: 270px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.playfire {
+    background-image: url(../images/billfire.png);
+    height: 270px;
+    width: 130px;
+    background-repeat: no-repeat;
+}
+@keyframes blast {
+    0% {
+        left: 5%;
+    }
+    100% {
+        left: 95%;
+    }
+}
+.blast {
+    background-image: url(../images/fireball.png);
+    background-size: cover;
+    position: fixed;
+    top: 30%;
+
+    z-index: 1;
+    animation-name: blast;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes revblast {
+    0% {
+        right: 5%;
+    }
+    100% {
+        right: 95%;
+    }
+}
+.revblast {
+    background-image: url(../images/fireball.png);
+    background-size: cover;
+    position: absolute;
+    position: fixed;
+    top: 30%;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    animation-name: revblast;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.opponentfire {
+    background-image: url(../images/vivianfire.png);
+    height: 270px;
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#attack {
+}
+#hp {
+}
+#hpword {
+}
+#opphp {
+    margin-left: 30%;
+    text-align: right;
+}
+#opphpword {
+    margin-left: 30%;
+    text-align: right;
+}
+#message {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
+#playerSelection {
+    z-index: 2;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-image: url("../images/dark-grey-terrazzo.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#playerMessage {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    z-index: 3;
+}
+.playerchoice {
+    z-index: 4;
+    float: left;
+    margin: 8%;
+    color: white;
+}
+.center {
+    margin: auto;
+    color: #fff;
+}
+.stats {
+    position: relative;
+    top: 270px;
+}
+#player {
+    position: relative;
+    top: 50%;
+}
+#opp {
+    position: relative;
+    top: 50%;
+}
+.stats2 {
+    position: relative;
+    top: 120px;
+}
+#quest {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5em;
+    border: 1px white solid;
+    padding: 2%;
+    background-color: black;
+}
