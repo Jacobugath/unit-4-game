@@ -10,3 +10,8 @@ The object of the game is to defeat all other office workers without your health
 This project is live on https://jacobugath.github.io/unit-4-game/
 
 Jacobugath maintains the project create an issue for new feature requests or bugs.
+
+Screenshot:
+
+![portfolio-4](https://user-images.githubusercontent.com/38122078/52170679-0b0cf480-270c-11e9-900d-f6a20a32589b.jpg)
+
