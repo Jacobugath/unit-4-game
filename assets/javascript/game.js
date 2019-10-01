@@ -211,7 +211,7 @@ function blast6() {
     checkForWin();
 }
 function checkForWin() {
-    if (wins >= 2) {
+    if (wins >= 2 && opp.gethp()<=0&& player.gethp()>0) {
         document.getElementById("message").innerText =
             "No one left to fight. You won the whole game! WAY TO GO!! You are the new Grand High Fire Marshal";
         $("body").toggleClass("fire");
